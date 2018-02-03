@@ -22,3 +22,6 @@ $RECYCLE.BIN/
 .DS_Store
 .Spotlight-V100
 .Trashes
+
+# User-specific stuff:
+.idea/workspace.xml
