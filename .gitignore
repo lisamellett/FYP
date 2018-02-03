@@ -25,3 +25,8 @@ $RECYCLE.BIN/
 
 # User-specific stuff:
 .idea/workspace.xml
+.idea/jsLibraryMappings.xml
+
+
+# modules.xml
+# .idea/misc.xml
