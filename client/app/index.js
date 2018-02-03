@@ -13,7 +13,11 @@ import NotFound from './components/App/NotFound';
 
 import Home from './components/Home/Home';
 
-import HelloWorld from './components/HelloWorld/HelloWorld';
+import Dashboard from './components/Dashboard/Dashboard';
+
+import Calendar from './components/Calendar/Calendar';
+
+import Performance from "./components/Performance/Performance";
 
 import './styles/styles.scss';
 
@@ -22,7 +26,9 @@ render((
     <App>
       <Switch>
         <Route exact path="/" component={Home}/>
-        <Route path="/helloworld" component={HelloWorld}/>
+        <Route path="/dashboard" component={Dashboard}/>
+        <Route path="/calendar" component={Calendar}/>
+        <Route path="/performance" component={Performance}/>
         <Route component={NotFound}/>
       </Switch>
     </App>

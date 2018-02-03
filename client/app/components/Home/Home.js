@@ -86,7 +86,7 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <p>Counters:</p>
+        <p>Days Off:</p>
 
         <ul>
           { this.state.counters.map((counter, i) => (
@@ -99,7 +99,7 @@ class Home extends Component {
           )) }
         </ul>
 
-        <button onClick={this.newCounter}>New counter</button>
+        <button onClick={this.newCounter}>New person</button>
       </div>
     );
   }

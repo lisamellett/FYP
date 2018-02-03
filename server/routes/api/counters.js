@@ -1,3 +1,5 @@
+// database test to see if able to update values
+
 const Counter = require('../../models/Counter');
 
 module.exports = (app) => {

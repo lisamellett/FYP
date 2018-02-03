@@ -1,11 +1,11 @@
 {
-  "name": "MERN-boilerplate",
+  "name": "FYP_app",
   "version": "1.0.0",
-  "description": "MERN stack project boilerplate",
-  "author": "Eugene Cheung",
+  "description": "FYP Lisa Mellett - MERN stack",
+  "author": "Lisa Mellett",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arkon/MERN-boilerplate.git"
+    "url": "git+https://github.com/lisamellett/FYP.git"
   },
   "license": "MIT",
   "private": true,
